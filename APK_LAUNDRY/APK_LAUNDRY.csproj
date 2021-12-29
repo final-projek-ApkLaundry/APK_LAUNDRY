@@ -46,14 +46,71 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CucianKeluar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CucianKeluar.Designer.cs">
+      <DependentUpon>CucianKeluar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CucianMasuk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CucianMasuk.Designer.cs">
+      <DependentUpon>CucianMasuk.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Harga.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Harga.Designer.cs">
+      <DependentUpon>Harga.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pelanggan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pelanggan.Designer.cs">
+      <DependentUpon>Pelanggan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pencuci.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pencuci.Designer.cs">
+      <DependentUpon>Pencuci.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pengembalian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pengembalian.Designer.cs">
+      <DependentUpon>Pengembalian.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CucianKeluar.resx">
+      <DependentUpon>CucianKeluar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CucianMasuk.resx">
+      <DependentUpon>CucianMasuk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Harga.resx">
+      <DependentUpon>Harga.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pelanggan.resx">
+      <DependentUpon>Pelanggan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pencuci.resx">
+      <DependentUpon>Pencuci.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pengembalian.resx">
+      <DependentUpon>Pengembalian.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
