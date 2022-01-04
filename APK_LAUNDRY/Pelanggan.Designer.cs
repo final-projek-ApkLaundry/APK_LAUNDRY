@@ -187,6 +187,7 @@ namespace APK_LAUNDRY
             this.bttambah.TabIndex = 81;
             this.bttambah.Text = "Tambah";
             this.bttambah.UseVisualStyleBackColor = true;
+            this.bttambah.Click += new System.EventHandler(this.bttambah_Click);
             // 
             // txid
             // 
@@ -230,6 +231,7 @@ namespace APK_LAUNDRY
             this.Name = "Pelanggan";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Pelanggan";
+            this.Load += new System.EventHandler(this.Pelanggan_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvkonsumen)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
